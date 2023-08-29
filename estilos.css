@@ -1,11 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@500;1000&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Recursive:wght@500;1000&display=swap');
-</style>
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -15,6 +13,8 @@ header {
     color: #fff;
     text-align: center;
     padding: 20px;
+}
+header h1 {
     font-family: 'Recursive';
 }
 nav ul {
