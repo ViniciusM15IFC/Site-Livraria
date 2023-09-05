@@ -4,9 +4,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #ddd;
 }
 header {
     background-color: #222;
@@ -77,4 +82,7 @@ nav li:hover {
     padding: 3px;
     border-radius: 3px;
     transition: background-color 0.3s ease;
+}
+form {
+    background-color: #fff;
 }
