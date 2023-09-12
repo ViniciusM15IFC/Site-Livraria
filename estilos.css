@@ -106,8 +106,6 @@ form legend {
 }
 .input-container {
     margin-bottom: 10px;
-    display: block;
-    width: 100%;
 }
 .input-container label {
     display: block;
@@ -115,8 +113,8 @@ form legend {
     font-weight: bold;
     font-size: 14px;
 }
-input[type="text"]
-input[type="date"]
+input[type="text"],
+input[type="date"],
 input[type="number"] {
     width: 100%;
     padding: 8px;
@@ -165,7 +163,4 @@ button[type="reset"] {
 }
 button:hover {
     background-color: #0056b3;
-}
-div.input-container {
-    width: 100%;
 }
